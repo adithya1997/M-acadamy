@@ -1,0 +1,6 @@
+?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Mysite\Blog\Api\Data\PostInterface" type="Mysite\Blog\Model\Post"/>
+    <preference for="Mysite\Blog\Api\PostRepositoryInterface" type="Mysite\Blog\Model\PostRepository"/>
+</config>
